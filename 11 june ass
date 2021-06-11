@@ -1,0 +1,101 @@
+1.Q is an empty queue. The following operations are done on it:
+
+ADD 5
+
+ADD 7
+
+ADD 46
+
+DELETE
+
+ADD 13
+
+DELETE
+
+DELETE
+
+ADD 10
+
+What will be the content of Q after these operations? Front is marked by (F) and Rear is marked by (R).-->10(R) 13(F)
+
+
+2.A is an empty stack. The following operations are done on it.
+
+PUSH(1)
+
+PUSH(2)
+
+POP
+
+PUSH(5)
+
+PUSH(6)
+
+POP
+
+What will the stack contain after these operations?-->1 5
+
+
+3.A pseudo-code is used. Assume that when two data-types are processed through an operator, the answer maintains the same data-type as the input data-types. 
+Assume that all data-types have enough range to accommodate any number. If two different data-types are operated on, the result assumes the more expressive data-type.
+
+What will be the output of the following pseudo-code statements?
+
+Integer a = 456, b, c, d =10
+
+b = a/d
+
+c = a - b
+
+print c-->411
+
+
+4.What is implied by the argument of a function?--> The variables passed to it when it is called
+
+
+5.In a sequential programming language, code statements are executed in which order?-->From top to bottom
+
+
+6.Geeta takes as input 2 integer numbers, a and b, whose value can be between 0 and 31. She stores them as 5 bit numbers.
+She writes the following code to process these numbers to produce a third number  c = 2*(a - b)
+In how many minimum bits should Geeta store c?-->7 bits
+
+
+7. Which of the following data structures may give overflow error, even though the current number of elements in it is less than
+its size?-->Queue implemented in a linear array
+
+8.Farhan writes a code to find the factorial of an inputted number. His code gives correct answers for some inputs and 
+incorrect answers for others. What kind of error does his program have?-->Logical Error
+
+9.As part of the maintenance work, you are entrusted with the work of rearranging the library books in a shelf in
+proper order, at the end of each day. The ideal choice will be -->Insertion Sort
+
+10.Ragu writes a program to find an element in the array A[5] with the following elements in order: 18 32 44 46 57. She runs the program to find a number X.
+X is found in the first iteration of binary search. What is the value of X?-->44
+
+11. A stack is implemented as a linear array A[0...N-1]. Farhan writes the following functions for pushing an element E into the stack.
+
+function PUSH( top, E, N )
+{
+         if(XXX)
+        {
+             top= top+1
+              A[top] = E
+           }
+           else
+          {
+                 print "Overflow"
+            }
+            return top
+}
+
+Fill in the condition XXX-->top< N-1
+
+
+12.A queue is implemented by a linear array of size 10 (and not as a circularly connected array). Front and Rear are represented 
+as an index in the array. To add an element, the rear index is incremented and the element is added. To delete an element, the front 
+index is incremented. The following operations are done on an empty queue.
+
+ADD 1; DELETE; ADD 2; ADD 3; ADD 4; DELETE, DELETE
+
+After this set of operations, what is the maximum capacity of the queue?-->7
