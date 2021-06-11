@@ -1,0 +1,83 @@
+1.Pragya sells footballs. She has a large container to store footballs which is closed from below. Footballs are piled
+one on top of the other in the box. When new balls are supplied, Pragya puts the balls in the box from the top. When a 
+customer buys a ball, she delivers the ball at the top of the pile to the customer. Each ball has a code. She wants to 
+store the ball codes in a data structure to keep track of her inventory. What data structure should she use?-->Stack
+
+2.To fully specify a singly linked linked-list, which of the following options is necessarily required?-->Address of first element
+
+3.A list is implemented as a singly linked link-list. The address of the first and last node are stored in variables first and last.
+Given the address of a node is given in the variable node, the element stored in the node can be accessed by the statement node->data 
+and the address to the next node can be accessed by node->next. Yusuf writes the code to delete the first element from the linked-list.
+He writes the following function, where first and last are passed by reference.
+
+function deleteElement(first, last)
+{
+      if (firstisequalnull)
+      {
+               print "List empty"
+       }
+       else
+      {
+                  first = first->next
+         }
+}
+
+In which of the following scenarios will the code not work properly?--> It will work well in all possible cases.
+
+4.For a binary search tree, which traversal will result in a sorted list?-->Inorder
+
+5.For a binary tree with n nodes, what is the time complexity to search an element in it?-->O(log n)
+
+6.We have a list of elements and we want to sort them using insertion sort. Which data structure among the
+following should we use to store the elements to give low time-complexity of sorting on average?--> Linked List
+
+7.Find the output of the program
+#include<stdio.h>
+int main()
+{
+	int x;
+	for(x=-1; x<=10; x++)
+	{
+		if(x < 5)
+			continue;
+		else
+			break;
+		printf("Alpingi");
+	}
+	return 0;
+}-->0 times
+
+
+8.Integer a = 20, b =10, c = 20, d =10
+Print a*b/c-d
+Print a*b/(c-d)
+Will the output be same for the two ?-->The output will have a difference of 20
+
+9.Usain Bolt runs 400 meters race, the timekeeper wants to write a program to save his track
+timing what kind of a data type should he be using to store the temporary data?-->double
+
+10.short s1 = 20;
+short s2 = 400;
+int a;
+a = s1 * s2;-->A value 8000 will be assigned to a.
+
+11.Output of following program?
+#include<stdio.h>
+ int main()
+ {
+     float x = 0.1;
+     if ( x == 0.1 )
+     printf("IF");
+     else if (x == 0.1f)
+      printf("ELSE IF");
+      else
+      printf("ELSE");
+ }-->ELSE IF
+ 
+ 
+ 12.Paras has to write a code using a consecutive number of registers and these registers can 
+ at max have 11 bits. How many signed numbers can he store in this-->2048
+ 
+ 
+
+
